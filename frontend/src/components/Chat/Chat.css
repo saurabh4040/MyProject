@@ -1,0 +1,127 @@
+.chatPage{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color: #3fbbc0;
+    height: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header>h2{
+    font-size: 2.8vmax;
+    color: white;
+    margin: 2.5vmax;
+}
+
+.header img{
+    height: 18px;
+    width: 18px;
+    margin: 2.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header>img:hover{
+    transform: scale(1.2);
+}
+
+
+.chatBox{
+
+ height: 70%;
+ box-sizing: border-box;
+}
+
+.inputBox{
+    
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput{
+   
+    width: 80%;
+    border: none;
+    padding: 2vmax;
+    box-sizing: border-box;
+    background-color: white;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vmax;
+    border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+}
+
+
+.sendBtn{
+    background-color: #3fbbc0;
+    color: white;
+    border: none;
+    width: 21%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sendBtn>img{
+    width: 2.6vmax;
+    filter:brightness(100) invert();
+    transition: all 0.3s;
+}
+.sendBtn:hover{
+    background-color: #1b5456;
+} 
+.sendBtn:hover img{
+    transform: translateX(10px);
+}
+
+
+@media (max-aspect-ratio: 7/10) {
+    .chatContainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100%;
+    }
+
+    .header{
+        height: 10% !important;
+    }
+
+    .header>h2{
+        margin: 8vw !important;
+        font-size: 5vw !important;
+    }
+
+    .header img{
+        height: 10px;
+        width: 10px;
+        margin: 6vw !important;
+        transform: scale(2) !important;
+    }
+    .header>img:hover{
+        transform: scale(3.2) !important;
+    }
+    .chatBox{
+        height: 80% !important;
+    }
+    .inputBox{
+        height: 10% !important;
+    }
+    #chatInput{
+        padding: 4vmax !important;
+        font-size: 4vw !important;
+    }
+    
+}

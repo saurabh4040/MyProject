@@ -1,0 +1,34 @@
+.messageBox{
+    width: initial;
+    color: #cccccc;
+    padding: 1vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+    float: right;
+    background-color: #0f6b6e;
+    color: white;
+    text-align: right;
+}
+
+.left{
+    float: left;
+    background-color: #cccccc;
+    color: black;
+    text-align: left;
+}
+
+@media (max-aspect-ratio: 7/10) {
+    .messageBox{
+        padding: 3vw;
+        margin: 3vw;
+        border-radius: 1.5vmax;
+        font-size: 3.5vw;
+    }
+}

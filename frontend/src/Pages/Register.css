@@ -1,0 +1,225 @@
+body{
+  background-color: #ffffff;
+}
+
+.navbar {
+  background-color: #3fbbc0; 
+  color: #ffffff; 
+  padding: 10px; 
+}
+
+.nav-icon {
+  font-size: 30px; 
+  font-weight: bold;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+
+.form-container {
+  flex: 1;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.doctor-image {
+  width: 95%;
+  height: auto;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #3fbbc0;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.title {
+  font-size: 32px;
+  color: #3fbbc0;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+}
+
+.message,
+.signin {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a {
+  color: royalblue;
+}
+
+.signin a:hover {
+  text-decoration: underline #3fbbc0;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background-color: #3fbbc0;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .mainContainer {
+    flex-direction: column;    
+  }
+
+  .image-container {
+    order: -1; 
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px; 
+  }
+
+  .form-container {
+    width: 105%;
+  }
+  .nav-icon{
+    font-size: 20px;
+  }
+}
+
+
+
+
+/* Login CSS */
+
+#LoginInput{
+  width: 550px;
+  margin-left: 20px;
+}
+
+#LoginInputPass{
+  width: 550px;
+  margin-left: 20px;
+}
+
+
+#LoginSubmit{
+  width: 40%;
+  margin-left: 180px;
+  margin-top: 10px; 
+}
+
+.loginInput{
+  width: 90%;
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
+  outline: 0;
+  margin-left: 20px;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+}
+
+
+@media screen and (max-width: 767px) {
+  #LoginInput{
+    width: 330px;
+  }
+  
+
+  #LoginInputPass{
+    width: 330px;
+  }
+
+  #LoginSubmit{
+    margin-left: 100px;
+  }
+  .loginInput{
+    width: 70%;
+  }
+}
+
+
+
+@media  screen and (max-width: 420px) {
+  .loginInput{
+    width: 90%;
+  }
+}
+
+
+@media  screen and (max-width: 400px) {
+  #LoginInput{
+    width: 100%;
+  }
+  #LoginInputPass{
+    width: 100%;
+  }
+}
+

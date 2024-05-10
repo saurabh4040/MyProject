@@ -1,0 +1,143 @@
+
+.container_custom {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.logoName_custom {
+  color: rgb(14, 177, 192);
+}
+
+.logo_custom {
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo_custom img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo_custom h1 {
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+li {
+  padding-bottom: 2rem;
+}
+
+li a {
+  font-size: 16px;
+  color: rgb(85, 83, 83);
+}
+
+nav i {
+  width: 30px;
+  font-size: 20px;
+}
+
+.logout_custom {
+  position: absolute;
+  bottom: 20px;
+}
+
+/* Main Section */
+
+.main_custom {
+  width: 100%;
+}
+
+.main-top_custom {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(14, 179, 201);
+  font-weight: bolder;
+}
+
+.main-body_custom {
+  padding: 10px 10px 10px 20px;
+}
+
+h1 {
+  margin: 20px 10px;
+}
+
+.row_custom {
+  display: flex;
+  padding: 10px;
+  margin-top: 1.3rem;
+  justify-content: space-between;
+}
+
+.row_custom p {
+  color: rgb(54, 54, 54);
+  font-size: 20px;
+}
+
+.row_custom p span {
+  color: blueviolet;
+}
+
+.mission_card_custom {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  border: 2px solid rgb(190, 190, 190);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.mission_details_custom {
+  display: flex;
+}
+
+.mission_details_custom .img_custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission_details_custom .img_custom i {
+  width: 70px;
+  font-size: 3rem;
+  margin-left: 1rem;
+  padding: 10px;
+  color: #3fbbc0;
+  background: rgb(249, 245, 253);
+}
+
+.mission_details_custom .text_custom {
+  margin-left: 2.3rem;
+}
+
+.mission_details_custom .text_custom span {
+  color: rgb(116, 112, 112);
+}
+
+.mission_time_custom {
+  text-align: right;
+  color: rgb(54, 54, 54);
+}
+
+.mission_card_custom:active {
+  border: 2px solid blueviolet;
+  transition: 0.4s;
+}

@@ -1,0 +1,59 @@
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .animation-container {
+    max-width: 80%;
+  }
+  
+  .animation-container .animateImage {
+    height: 90%;
+    width: 300px;
+  }
+  
+  .message-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .confirmation-message {
+    font-size: 34px;
+    line-height: 1.5;
+    color: #3fbbc0;
+  }
+  
+  .confirmation-text {
+    font-size: 20px; 
+    text-align: center; 
+    color: #444;
+    margin-top: 20px;
+    max-width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  .return-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3fbbc0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .return-button:hover {
+    background-color: #1c5253;
+  }
+  
