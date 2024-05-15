@@ -14,7 +14,7 @@ const Footer = () => {
                                     BBD University<br />
                                     Chinhat, Lucknow 226028<br /><br />
                                     <strong>Phone:</strong> +919292929299<br />
-                                    <strong>Email:</strong> shubhamgupta10@gmail.com<br />
+                                    <strong>Email:</strong> saurabhanand708@gmail.com<br />
                                 </p>
                                 <div className="social-links mt-3">
                                     <Link to="" className="twitter"><i className="bx bxl-twitter"></i></Link>
@@ -32,6 +32,7 @@ const Footer = () => {
                                 <li><i className="bx bx-chevron-right"></i> <Link to="/doctors">Doctor</Link></li>
                                 <li><i className="bx bx-chevron-right"></i> <Link to="/join">Live Chat</Link></li>
                                 <li><i className="bx bx-chevron-right"></i> <Link to="/appointment">Appointment</Link></li>
+                                <li><i className="bx bx-chevron-right"></i> <Link to="/ContactMe">ContactMe</Link></li>
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-6 footer-links">
@@ -52,7 +53,7 @@ const Footer = () => {
                     &copy; Copyright <strong><span>DoSchedulise</span></strong>.
                     All Rights Reserved
                 </div>
-                <div className="credits">Designed by Shubham Kumar Gupta</div>
+                <div className="credits">Designed by Saurabh Anand</div>
             </div>
         </footer>
   )
