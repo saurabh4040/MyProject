@@ -1,0 +1,20 @@
+.contactmetext{
+    color: #3fbbc0;
+  }
+  
+  .maincolor{
+    color: white;
+    background-color: #3fbbc0;
+  }
+  
+  #contactMe{
+    width: 60%;
+    margin: auto;
+    border: 2px solid #3fbbc0;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 1.5);
+    border-radius: 30px;
+  }
+  
+  .insidediv{
+    margin-top: 0;
+  }
