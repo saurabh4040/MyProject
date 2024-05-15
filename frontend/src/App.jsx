@@ -14,6 +14,7 @@ import Chat from "./components/Chat/Chat.jsx";
 import DocDashboard from "./components/DoctorsDashboard.jsx";
 import Doctor from "./Pages/Doctor.jsx";
 import AppointmentConfirm from "./components/AppointmentConfirm.jsx";
+import ContactMe from "./components/ContactMe.jsx";
 
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="docdashboard" element={<DocDashboard/>}/>
           <Route path="/appointment/thankyou" element={<AppointmentConfirm/>}/>
           <Route path="/doctors" element={<Doctor/>}/>
+          <Route path="/contactme" element={<ContactMe/>}/>
           <Route path="/profile" element={<Profile/>}/>
           <Route exact path="/join" element={<Join/>}/>
           <Route path="/chat" element={<Chat/>}/>
